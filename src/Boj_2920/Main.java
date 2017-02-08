@@ -12,7 +12,8 @@ public class Main {
 
 		br.close();
 
-		int before = Integer.parseInt(strs[0]);
+		int before = Integer.parseInt(strs[0]);  // 문자열 값을 숫자로 변환
+		 										 // before은 strs[0](문자열 값)을 숫자로 변환시킨 것. 
 		boolean isAscending = false;
 		boolean isDescending = false;
 
